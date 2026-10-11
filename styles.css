@@ -1,0 +1,36 @@
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin: 10px 0;
+} 
+
+.container-content {
+    border: rgb(132, 71, 132) solid 0.5px;
+    background-color: rgb(247, 242, 252);
+    justify-content: center;
+    margin-right: 10px;
+    padding: 10px;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+button{
+    background-color: rgb(242, 231, 247);
+    color: rgb(52, 48, 38);
+    border-radius: 15%;
+}
+
+.title{
+    color: rgb(65, 2, 65);
+    font-weight: 6x00;
+}
+
+.delete-blog {
+    margin: 0 10px;
+}
+
+.content-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
